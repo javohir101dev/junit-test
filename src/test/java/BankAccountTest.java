@@ -20,7 +20,7 @@ public class BankAccountTest {
     @DisplayName("Deposit 400 successfully")
     public void testDeposit(){
         BankAccount bankAccount = new BankAccount(400, 0);
-        bankAccount.deposit(500);
+        bankAccount.deposit(600);
         assertEquals(900, bankAccount.getBalance());
     }
 
