@@ -21,7 +21,7 @@ public class BankAccountTest {
     public void testDeposit(){
         BankAccount bankAccount = new BankAccount(400, 0);
         bankAccount.deposit(600);
-        assertEquals(900, bankAccount.getBalance());
+        assertEquals(1000, bankAccount.getBalance());
     }
 
 
